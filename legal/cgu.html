@@ -14,11 +14,6 @@ body {
   color: #241a14;
   background: #FEF7E9;
 }
-@media (prefers-color-scheme: dark) {
-  body { color: #f2e9dd; background: #1c1712; }
-  .carte { background: #2a231c; border-color: #4a3f33; }
-  a { color: #e8b45e; }
-}
 h1 { font-size: 1.6rem; margin-bottom: 4px; }
 h2 { font-size: 1.15rem; margin-top: 28px; }
 h3 { font-size: 1.05rem; margin-top: 22px; }
@@ -48,6 +43,14 @@ ul.liste-docs a {
   border-radius: 12px;
   text-decoration: none;
   font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  body { color: #f2e9dd; background: #14100c; }
+  .carte { background: #241d16; border-color: #4a3f33; }
+  a { color: #e8b45e; }
+  .bandeau-brouillon { background: #7a5410; color: #ffe9bd; }
+  ul.liste-docs a { border-color: #4a3f33; }
 }
 </style>
 </head>
